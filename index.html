@@ -1,18 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Palette Picker</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
     <div class="container">
-        <div class="picker">
-            <button id="picker-btn">Pick Color</button>
-            <button id="export-btn">Export Color</button>
-        </div>
+      <div class="picker">
+        <button id="picker-btn">Pick Color</button>
+        <button id="export-btn">Export Color</button>
+      </div>
+      <div class="color-list hiden">
+        <header>
+          <p class="title">Picked Colours</p>
+          <span id="clear-btn">Clear</span>
+        </header>
+        <ul class="all-colors"></ul>
+      </div>
     </div>
+
     <script src="index.js"></script>
-</body>
+  </body>
 </html>
