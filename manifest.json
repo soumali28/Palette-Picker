@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
     "name": "Palette Picker",
-    "despcription": "Color picker extension with multiple color picking, saving & exporting",
+    "desp": "Color picker extension with multiple color picking, saving & exporting",
     "version": "1.0",
     "action": {
         "default_popup": "index.html"

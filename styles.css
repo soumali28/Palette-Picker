@@ -2,11 +2,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 .container {
   background-color: #fff;
   width: 350px;
-  height: 500px;
 }
 .container .picker,
 header,
@@ -72,10 +72,16 @@ header,
 .all-colors .rect:hover {
   transform: translateY(-3px);
 }
-.value {
-  font-size: 16px;
-}
 
+.label{
+  font-size: 14px;
+}
+.value {
+  font-size: 14px;
+}
+.colorspan{
+  font-size: 15px;
+}
 .rule {
   width: 350px;
   height: 2px;
@@ -88,4 +94,5 @@ header,
   margin: 5px 0;
   display: flex;
   align-items: center;
+  color: #3f3f3f;
 }

@@ -77,7 +77,7 @@ const showColors = () => {
                 <span class="rect" style="background: ${color}; border: 1px solid ${
           color === "#ffffff" ? "#ccc" : color
         }" data-color="${color}"></span>
-                <span class="value hex" data-color="${color}">${color}</span>
+                <span class="value hex colorspan" data-color="${color}">${color}</span>
             </li>
         `
     )
