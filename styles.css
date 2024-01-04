@@ -6,6 +6,7 @@
 .container {
   background-color: #fff;
   width: 350px;
+  height: 500px;
 }
 .container .picker,
 header,
@@ -45,11 +46,46 @@ header,
   font-size: 1rem;
 }
 .color-list .title {
-  color: #5b7770;
+  color: #293834;
   font-weight: 700;
 }
 .color-list #clear-btn {
   color: #b65c5c;
   cursor: pointer;
   font-weight: 700;
+}
+
+.all-colors {
+  list-style: none;
+}
+.all-colors .color {
+  margin: 5px;
+}
+.all-colors .rect {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+  display: block;
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+.all-colors .rect:hover {
+  transform: translateY(-3px);
+}
+.value {
+  font-size: 16px;
+}
+
+.rule {
+  width: 350px;
+  height: 2px;
+  background-color: #d6dbda;
+}
+
+.color-value {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 5px 0;
+  display: flex;
+  align-items: center;
 }
